@@ -1,0 +1,508 @@
+
+/* removing some default setting */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: dashed;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: normal; */
+}
+body{
+    
+    background-color: #0f0f10;
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 150vh;
+}
+
+/* header styling */
+nav{
+    /* display: grid; */
+    /* grid-template-columns: 2fr ; */
+    /* display: flex; */
+    /* border: 2px solid teal; */
+    width: 85%;
+    margin: 20px auto;
+    height: 110vh;
+}
+nav section{
+    display: flex;
+    flex-direction: column;
+}
+.bgc{
+    height: 450px;
+    width: 75%;
+/* border: 2px solid white; */
+   display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.logo{
+    /* height: 50px ; */
+    /* position: absolute; */
+    cursor: pointer;
+
+    margin: 10px;
+    width: 25px;
+    /* border: 2px solid green; */
+}
+
+.main-image img{
+    height: 450px;
+    position: absolute;
+    cursor: pointer;
+ 
+    width: 240px;
+    margin-left: 110px;
+    margin-top: -17px;
+
+
+}
+
+/* --------- */
+/* -----Menus----- */
+/* --------- */
+
+a{
+color: #fff;
+font-weight: 600;
+font-size: 18px;
+cursor: pointer;
+
+}
+.menu{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    gap: 30px;
+position: absolute;
+right: 20px;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-top: 10px;
+    cursor: pointer;
+    gap: 30px;
+}
+
+
+/* shop button */
+
+.btns{
+    background-color: #0f0f10;
+    color: #fff;
+    cursor: pointer;
+
+    font-size: 15px;
+    /* font-weight: 600; */
+    padding: 6px 30px;
+    gap: 10px;
+    border-radius: 7px;
+}
+
+/* -------- */
+/* --On Ear------ */
+/* -------- */
+
+.product{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: 80px;
+    line-height:25px;
+   margin-top: -400px;
+
+}
+
+.product h1{
+    margin:20px 0px;
+font-size: 50px;
+}
+
+.product h3{
+font-size: 20px;
+font-weight: normal;
+margin:15px 0px;
+
+
+}
+
+.product p{
+font-weight: light;
+font-size: 13px;
+color: #d5d5d5;
+
+}
+
+/* first shopping bag */
+
+/* .shopping- */
+.bag{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    /* background-color: #1e1919; */
+    background-color: #1e1e21;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+.bag P{
+    display:inline-block;
+    font-size: 12px;
+}
+.bag span{
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+/* Brand sites */
+.brand{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 10px auto ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.brand img{
+    width: 70px;
+}
+
+/* --------- */
+/* ----specs---- */
+/* ----- specs----- */
+
+.specs{
+    width: 70%;
+    height: 600px;
+        margin: 20px auto;
+}
+/* specs box divison  */
+.specs-divison{
+    display: flex;
+flex-direction: row;
+width: 100%;
+margin: 0px auto;
+}
+
+/* specs logo  */
+.specs-logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto;
+}
+.specs-logo img{
+    width: 150px;
+}
+
+/* specs lists styling */
+.specs-lists{
+    width: 50%;
+    }
+
+/* specs main image */
+.specs-main-image{
+    width: 50%;
+
+}
+.specs-main-image img{
+    width: 250px;
+}
+
+/* specs lists ajusting */
+.specs-lists div:first-child, .specs-lists div:last-child {
+    margin-left: 35px;
+}
+.specs-lists h3{
+    font-size: 15px;
+
+}
+.specs-lists p{
+    font-size: 12px;
+}
+
+/* case styling */
+.case-main{
+    height: 400px;
+    width: 80%;
+    margin: 20px auto;
+}
+.case-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.case-logo img{
+    width: 130px;
+}
+
+/* case--divison */
+
+.case-division{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.case-image{
+width: 50%;
+}
+.case-image img{
+    width: 225px;
+}
+
+.case-specification{
+    width: 30%;
+    margin: 2px auto;
+margin: 80px 40px;
+display: flex;
+flex-direction: column;
+}
+
+.case-specification p{
+    font-size: 12px;
+    color: #d0d0dc;
+    font-weight: light;
+    line-height: 20px;
+}
+
+.case-specification button{
+    padding: 10px 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1e1e21;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    justify-content: space-around;
+    gap: 1px;
+}
+
+.case-specification button img{
+    display: flex;
+}
+
+/* --------styling music newsletter */
+.music{
+    height: 400px;
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    background-color:#1e1e21;
+    border-radius: 10px; ;
+}
+
+/* music division  */
+/* music specification */
+.music-specification{
+width: 50%;
+display: flex;
+flex-direction: column;
+margin: 15px;
+justify-content: center;
+align-items: center;
+height: 400px;
+
+}
+.music-specification h1{
+font-size: 16px;
+}
+
+.music-specification p{
+    margin: 10px 0px ;
+    font-size: 12px;
+}
+
+/* button  */
+.music-specification button {
+    color:#fff;
+    background-color: #0f0f10;
+    padding: 6px 16px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    gap: 10px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+
+/* music image */
+.music-image{
+width: 60%;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+/* choose your style section */
+
+.choose-style{
+    height: 145vh;
+    width: 50%;
+    margin: 0px auto;
+
+}
+
+
+.choose-style-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.choose-style-logo img{
+    width: 160px;
+}
+
+/* ======= */
+/* ===ITEMS==== */
+
+.choose-style-list{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+/* headphone list styling */
+.choose-style-list{
+    height: 130vh;
+}
+
+.product-details div img{
+    width: 25px;
+}
+   
+    .product-list{
+        background: #181a1b;
+        position: relative;
+        width: 130px;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+    .product-img {
+        width: 80px;
+        position: absolute;
+        top: -40px;
+        left: 28px;
+      }
+
+      .product-details {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 10px 15px;
+      }
+      
+      .product-details p {
+        font-size: 12px;
+        font-weight: 600;
+      }
+      
+      .product-details p span {
+        color: #b1adad;
+      }
+
+      .product-details div {
+        background: #0a0a0b;
+        border-radius: 8px;
+        padding: 2px 6px;
+      }
+      
+      .product-details div img {
+        width: 13px;
+      }
+      /* footer styling  */
+      /* =============== */
+.foot ul li a{
+    font-size: 13px;
+    font-weight: 400;
+}
+.foot-logo img{
+    margin-top: 10px;
+    width: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    position: relative;
+        margin-top: 100px;
+        width: 100%;
+    }
+    .foot{
+        display: flex;
+        flex-direction: row;
+    margin: 10px auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+form input{
+    background-color: #1e1e21;
+    color: #d5d5d5;
+ font-weight: 600;
+     border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 5px;  
+
+}
+ .gmail-form button{
+right: 200px;
+top: 16.5px;
+}
+
+.gmail-form button{
+    position: absolute;
+    background-color: black;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;   
+ font-weight: 600;
+    border-radius: 8px;
+        border: none;
+}
+/* up arrow */
+.up-arrow{
+    right: 10px;
+}
+.up-arrow img{
+    width: 30px;
+    right: 0px;
+    position: absolute;
+}
+/* social media */
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}

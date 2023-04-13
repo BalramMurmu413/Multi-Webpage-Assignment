@@ -1,0 +1,350 @@
+
+/* ===================== */
+/* ======PLEASE READ THIS===== */
+/* In this CSS External sheet i tried to style 3 html pages 
+  home, about and contact.       */
+/* =================== */
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: 80%;
+    margin: 8px auto;
+    background-image: url('./Images/stethoscope.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-attachment: fixed;
+    
+    /* overflow: hidden; */
+}
+/* ============================= */
+/* =======starting header styling====== */
+/* ============================= */
+a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #101010;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 6px;
+}
+header{
+    height: 60px;
+     width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.menu ul {
+    display: flex;
+    
+}
+.menu li{
+    margin:2px 4px ;
+padding: 4px;
+
+}
+.logo img{
+    width: 150px;
+    cursor: pointer;
+
+}
+
+/* .active:hover{
+    color: #3fe555;
+} */
+/* ============================= */
+/* =======ending header styling====== */
+/* ============================= */
+
+/* main */
+main{
+    display: flex;
+    margin: auto;
+}
+main div{
+    flex-wrap: wrap;
+
+}
+
+/* ============================= */
+/* =======left content====== */
+/* ============================= */
+.left-content{
+    width: 70%;
+    height: 300px;
+    /* border: 2px solid tomato; */
+
+}
+
+
+h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-weight: 900;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Appointment{
+    background-color: seagreen;
+    border: 2px solid seagreen;
+    border-radius: 14px;
+    color: #fff;
+    font-size: bolder;
+    font-size: 25px;
+    padding: 3px 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.bottomAngle{
+    display: flex;
+
+    margin-left: 360px;
+}
+.mouse{
+    margin-left: 380px;
+}
+
+/* ============================= */
+/* =======ending left content styling====== */
+/* ============================= */
+
+
+
+
+
+/* ============================= */
+/* =======styling right content styling====== */
+/* ============================= */
+.right-content{
+    width: 30%;
+    height: 300px;
+    /* border: 2px solid tomato; */
+    /* flex-wrap: wrap; */
+
+}
+
+
+.orange, .green,.doctor{
+    position: absolute;
+}
+
+.green img{
+    width: 303px;
+    margin: 20px 0px 0px 0px;
+}
+.orange img{
+    margin: 30px 0px 0px 55px;
+    width: 250px;
+
+}
+    .doctor img{
+        width: 288px;
+        margin-top: -55px;
+
+
+    }
+
+
+
+
+/* ============================= */
+/* =======ending right content styling====== */
+/* ============================= */
+
+
+/* ============================= */
+/* =======media query styling====== */
+/* ============================= */
+
+
+
+.active a{
+    color: #219e3c;
+}
+a:hover {
+    border: 2px solid #209038;
+    padding: 4.5px;
+    color: #219e3c;
+}
+
+
+/* ===================== */
+/* ======About page Styling----===== */
+/* =================== */
+
+
+
+
+/* ===================== */
+/* ======About page main container----===== */
+/* =================== */
+
+
+
+.About-Container{
+    height: 300px;
+    width: 70%;
+    margin: 0px auto;
+    
+    
+}
+
+
+/* ===================== */
+/* ======About page paragraph ----===== */
+/* =================== */
+
+
+
+.main-para{
+
+    height: 100px ;
+    width: 80%;
+    margin: 80px auto;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+
+.Show-boxes{
+    /* border:2px solid #209038; */
+height: 60px;
+width: 90%;
+margin:80px auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+
+/* ===================== */
+/* ======Number boxes----===== */
+/* =================== */
+
+
+.show-box1,
+.show-box2,
+.show-box3{
+width: 120px;
+height: 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+border-radius: 4px;
+
+}
+
+h2{
+    padding: 10px;
+    color: #219e3c;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-para p{
+    font-size: 12px;
+    text-align: center;
+   font-weight: normal;
+   letter-spacing: .5px;
+
+}
+
+h4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    color: #219e3c;
+    line-height: 13px;
+
+    /* designing */
+    padding: 10px;
+    border-radius: 6px;
+}
+
+span{
+    font-family: 'Poppins', sans-serif; 
+     font-weight:600;
+    color: #232222;
+}
+
+
+/* ===================== */
+/* ======Thank You----===== */
+/* =================== */
+
+
+/* ===================== */
+/* ======Contact Us----===== */
+/* =================== */
+
+
+section{
+    height: 320px;
+    width: 100%;
+    /* border: 2px solid green; */
+    text-align: center;
+    display: flex;
+    
+}
+.reg{
+    font-family: 'Poppins','sen,serif';
+    align-items: center;
+    margin:10px auto;
+    box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.5), 0px 6px 8px 0px rgba(0, 0, 0, 0.30);
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+}
+.Con-form{
+    font-size: 20px;
+    font-weight: 700;
+}
+label{
+    margin-left: -95px  ;
+    font-weight: 500;
+    position: absolute;
+}
+
+input {
+    width: 85%;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 3px;
+    font-size: 600;
+  }
+  .Submit{
+    background-color: seagreen;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    color: #fff;
+    font-size: bolder;
+    font-size: 13px;
+    padding: 2px;
+    width: 93%;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  /* ===================== */
+/* ======Contact us eng----===== */
+/* =================== */
